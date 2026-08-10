@@ -12,6 +12,10 @@ surveillance, and fire-control tracking.
 > Built as a weekend portfolio piece. Synthetic data only, defensive/situational-
 > awareness framing — no targeting or guidance logic.
 
+> 📖 **New to Kalman filters / sensor fusion? Read [EXPLAINER.md](EXPLAINER.md)** —
+> a from-zero walkthrough of the what, why, how, and where (file by file), plus
+> how to talk about it in an interview.
+
 ```
             ┌────────────┐  measurements.csv  ┌─────────────────┐  track.csv  ┌──────────────┐
  Python ──▶ │  simulate  │ ─────────────────▶ │  C++ fusion core │ ──────────▶ │  visualize   │ ──▶ fusion.png
